@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GRE words</title>
+ 
+    <link href="./BootStrap/bootstrap.min.css" rel="stylesheet" />
+    <script defer src="./BootStrap/bootstrap.bundle.min.js"></script>
+    <script defer type="module" src="popout.js"></script>
+    <style>
+      .hover-effect:hover {
+        opacity: 0.95;
+      }
+      hr.style-two {
+        border: 0;
+        height: 1px;
+        background-image: linear-gradient(
+          to right,
+          rgba(0, 0, 0, 0),
+          rgba(0, 0, 0, 0.75),
+          rgba(0, 0, 0, 0)
+        );
+      }
+    </style>
+  </head>
+  <body class="bg-dark text-white">
+    <div class="flashCard container" style="width: 500px;">
+      <div class="flashCardDefinition">
+        <p
+          id="word"
+          class="text-start text-capitalize mb-2 mt-3 badge bg-light bg-gradient text-dark fs-3 hover-shadow"
+        >
+        </p>
+
+        <ul class="list-group">
+          <li class="listItem">
+            <span class="badge bg-primary bg-gradient text-capitalize" id="badge"></span>
+            <span id="definition"></span>
+          </li>
+        </ul>
+        <hr class="style-two" />
+        
+        <p id="example" class="text-light lh-base mx-auto"></p>
+      </div>
+    </div>
+    <div class="d-grid">
+      <button
+        type="button"
+        class="btn btn-light next hover-effect rounded-0"
+        id="button"
+      >
+        ✔ I knew this word
+      </button>
+    </div>
+  </body>
+</html>

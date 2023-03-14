@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "GRE words",
+  "version": "0.0.0.1",
+  "description": "Learn GRE words one by one",
+  "chrome_url_overrides":{
+    "newtab": "newTab.html"
+  },
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "action": {
+    "default_title": "GRE Words",
+    "default_popup": "popup.html"
+  }
+}
