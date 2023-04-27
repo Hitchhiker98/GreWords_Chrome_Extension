@@ -16,10 +16,8 @@ function loadPage() {
 
     let test1 = `${response.word}  <a target="_blank" class="text-decoration-none" href="${response.link}"><span class="badge  fs-6 rounded-pill bg-danger">📣</a>`;
 
-    //  Update Display on Content Script
+    //  Update
     document.getElementById("word").innerHTML = test1;
-
-    // document.querySelector('p').innerHTML=response.definition;
   });
 }
 
