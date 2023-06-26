@@ -21,6 +21,4 @@ The two methods for installing the extension are as follows:
 
 <img alt="google search" src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExM2ZiMDJkYzQyM2NhMmU1M2YyMWUyN2ViZDEwYmI4MmI5ZmViNzBjMSZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/VY5yntSpJwxFzWB5Z7/giphy.gif" />
 
-## License
 
-[MIT](https://choosealicense.com/licenses/mit/)
